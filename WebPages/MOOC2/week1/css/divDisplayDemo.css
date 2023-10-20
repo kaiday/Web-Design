@@ -1,0 +1,29 @@
+body{
+    display: table;
+}
+
+span{
+    height:50px;
+    width: 75px;
+    background: #00ff00;
+    /* Inline block */
+    display: inline-block;
+}
+
+div{
+    height: 100px;
+    width: 25%;
+    background: #00ffff;
+    float: left;
+    display: table-cell;
+    
+}
+
+p{
+    background: #ff00ff;
+    width: 200px;
+    height: 100px;
+    /* Not interface with float*/
+    display: table-col;
+    clear: both;
+}

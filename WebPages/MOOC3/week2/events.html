@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> JS Function</title>
+        <script src="js/envents.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body onload="message('LOAD')" onresize="message('RESIZE')">
+        <h1>Java Script Events</h1>
+        <div onclick="message('ON-CLICK')">Click on this div will evoke js function</div>
+
+        <p id="output"></p>
+
+        <h1> Modify the DOM</h1>
+        <button onclick="document.getElementById('stuff').innerHTML = 'Click the first button';"> Button One</button>
+        <button onclick="document.getElementById('stuff').innerHTML = 'Click the second button';"> Button Two</button>
+
+        <p> This paragraph has no id</p>
+        <p id="stuff"> This parapraph is going to change</p>
+        <p> This paragraph has no id</p>
+
+        <h1> Change class of an object</h1>
+        <p> JavaScript can change the class of an HTML element</p>
+        <button type="button" onclick="openMe()">Open</button>
+        <button type="button" onclick="closeMe()">Close</button>
+
+        <p id="demo"> Extra details... open and close using buttons above.</p>
+
+    </body>
+</html>

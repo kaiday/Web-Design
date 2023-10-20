@@ -1,0 +1,51 @@
+body{
+    background: #eb930e2e;
+    margin: 4%;
+}
+
+header{
+    background: #0eb8eb7f;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    color: #ffffff;
+}
+
+nav{
+    display: inline-block;
+    background: #003cff2c;
+    width: 50%;
+    height: 40%;
+    padding: 2px;
+}
+
+a{
+    color:#3700da
+}
+
+h2{
+    background: #fcf41371;
+    margin: 5px;
+    padding: 1px;
+}
+
+div{
+    width: 29%;
+    float: left;
+    display: block;
+    margin: auto;
+    width: 30%;
+    height:80%;
+    padding: 1px;
+}
+
+footer{
+    clear: both;
+    background: #d0c8c8d2;
+}
+
+img{
+    width: 25%;
+}

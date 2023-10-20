@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> jQuery in JavaScript</title>
+        <style>
+            button {
+                background-color: #fcff44;
+                color: #000000;
+                padding: 4xp;
+                border-radius: 3px;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $("document").ready(function(){
+                $("button").hide().fadeIn(700);
+            });
+        </script>
+
+    </head>
+    <body>
+        <button onclick="popUp()"> Click Me!</button>
+    </body>
+</html>
