@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	background: #607d8b2b;
+	font-size: 130%;
+}
+nav, header, main, footer{
+	border: 2px dashed darkblue;
+	padding: 5px;
+}
+
+main {
+    font-size: 90%;
+}
+
+section#about {
+    display: inline-block;
+}
+
+h2{
+    padding-left: 2%;
+	background: darkblue;
+	color: white;
+}
+
+section#skillAndExp h3 {
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+	background: rgb(86, 94, 99);
+	color: white;
+    display: block;
+}
+
+section#skillAndExp img{
+    width: 35%;
+}
+
+section p {
+    margin-left: 1%;
+}
